@@ -1,0 +1,60 @@
+section.signup section.left{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+}
+section.signup section.right{
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    right: 0;
+    background-image: url('../../images/background-signup.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+section.signup form.form-signup{
+    width: 530px;
+    height: 590px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 84px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0px 4px 9px rgba(255, 41, 41, 0.1), 0px 8px 53px rgba(255, 41, 41, 0.5);
+}
+
+section.signup form.form-signup .titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.signup form.form-signup .titulo h2:hover{
+    border-bottom: 2px solid #C1272D;
+}
+
+section.signup form.form-signup input[type=text],section.signup form.form-signup input[type=password]{
+    height: 43px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    float: left;
+}
+section.signup form.form-signup input[type=submit]{
+    height: 51px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid #c1272c58;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+section.signup form.form-signup input[type=submit]:hover{
+    border: 1px solid #a42024;
+}
