@@ -1,0 +1,61 @@
+header.header{
+    border-bottom: 1px solid black;
+}
+
+header.header .container{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header.header .logo{
+    width: 100px;
+    height: 60px;
+    background-color:blue ;
+}
+
+header.header nav{
+    width:600px;
+}
+
+header.header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header.header nav ul li.favoritos{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/heart-icon.svg);
+    background-size: 100% 100%;
+}
+
+
+header.header nav ul li.carrinho{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/cart.svg);
+    background-size: 100% 100%;
+}
+
+
+header.header nav ul li.login{
+    width: 25px;
+    height: 25px;
+    background-image: url(../../images/profile.svg);
+    background-size: 100% 100%;
+}
+
+header.header nav ul li{
+    transition: 0.5s;
+}
+
+
+header.header nav ul li:hover{
+    font-size:18px;
+    border-bottom: 1px solid black;
+   
+}
+
